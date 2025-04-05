@@ -1,0 +1,39 @@
+* {
+    font-size: 12px;
+    font-family: 'Times New Roman';
+}
+
+.tituloTicket {
+    font-size: 17px;
+    padding: 10px 0px;
+ text-align: center;
+}
+
+.tituloPlaca {
+    font-size: 20px;
+    padding: 10px 0px;
+ text-align: center;
+}
+
+.atencionTcket {
+    text-align: left;
+    padding: 10px 0;
+    font-weight: 700;
+}
+
+.center {
+    text-align: center;
+}
+
+.derecha {
+    text-align: right;
+}
+
+.izquierda {
+    text-align: left;
+}
+
+.ticket {
+    width: 180px;
+    max-width: 180px;
+}
