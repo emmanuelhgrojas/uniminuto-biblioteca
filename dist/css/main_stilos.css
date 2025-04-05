@@ -1,0 +1,84 @@
+html,body{
+	margin:0px;
+	height:100%;
+}
+
+h1 > span{
+	font-size: 2em;
+	text-align: center;
+}
+
+.input-group-sm>.input-group-btn>.btn_buscar{
+	height: 34px;
+}
+.copyright{
+	display: block;
+	font-weight: 600;
+	margin: 0 auto;
+	text-align: center;
+	width: 50%;
+}
+
+.centrar{
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.centrarTexto{	
+	text-align: center;
+}
+
+.alinearDerecha{
+	float:right;
+}
+
+.alinearIzquierda{
+	float:left;
+}
+
+.wrapperImagenFondo{
+	min-height: 300px;
+	text-align: center !important;
+}
+
+.wrapperImagenFondo>img{
+	margin-top: 50px;
+	max-width: 640px;
+	min-width: 320;
+	width: 60%;
+}
+
+.imagenReportes{
+	max-width: 400px !important;
+}
+
+.wrapperlogin{
+	height: 100%;
+}
+
+.fondoLogin{
+	 height: 100vh;
+    background-image: url("../../dist/img/fondoLogin.jpg");
+    background-size: cover;
+    background-position: 50%;
+    -webkit-box-shadow: inset -24px 4px 64px -24px #474747;
+    box-shadow: inset -24px 4px 64px -24px #474747;
+}
+
+.logoNaharaSoft{
+	max-width:200px;
+	width:100%;
+}
+
+.placaVehiculo{
+	height:100px;
+	font-size:65px;
+	text-align:center;
+}
+
+@media only screen and (max-width: 768px) {
+	.fondoLogin{
+		display:none;
+	}
+}
